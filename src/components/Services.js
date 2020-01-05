@@ -22,26 +22,33 @@ class Services extends Component {
             </ul>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <h4>Useful Articles</h4>
-              <ul>
+            <h4>Useful Articles</h4>
+            <ul>
               <li><i class="fa fa-check"></i>How to Call your Voice Mail</li>
               <li><i class="fa fa-check"></i>Zoom Troubleshooting</li>
               <li><i class="fa fa-check"></i>How to add new Email</li>
               <li><i class="fa fa-check"></i>Setup your new Password</li>
               <li><i class="fa fa-check"></i>Verify PIN</li>
             </ul>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <h4>Free Upgrades</h4>
-                <ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h4>Free Upgrades</h4>
+            <ul>
               <li><i class="fa fa-check"></i>Fully Optimized</li>
               <li><i class="fa fa-check"></i>Free Suport</li>
               <li><i class="fa fa-check"></i>Free Upgrades</li>
               <li><i class="fa fa-check"></i>UpTime Guarantee</li>
               <li><i class="fa fa-check"></i>Multi User</li>
             </ul>
-              </div>
-                </div> 
+          </div>
+        </div> 
+
+        <div class="row center-xs ">
+        <div class="col-md-5 new-issue">
+
+          <div>Cannot find what you are looking for? <a href="#">Create New Ticket</a> </div>
+        </div>
+        </div>
 
       </div>
     );
