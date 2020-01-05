@@ -1,0 +1,17 @@
+/* FEATURES */
+#features h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom: 10px;;
+}
+
+#features p {
+  color: #888;
+  margin:0;
+  margin-bottom:40px;
+}
+
+#features .fa {
+  font-size: 60px;
+  color:#56a79a;
+}
