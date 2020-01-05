@@ -29,7 +29,7 @@
 }
 .search-box .search-btn {
   position: absolute;
-  right: 2px;
+  right: 0px;
   top: 0px;
   color: #aaa;
   border-radius: 10px;
@@ -40,10 +40,10 @@
   transition: all 200ms ease-in-out;
 }
 .search-box .search-btn:hover {
-  color: #fff;
-  background-color: #8FBE00;
+  background-color: #56a79a;
 }
 
 .search-icon i {
+  color: #aaa !important;
   font-size: 20px !important;
 }

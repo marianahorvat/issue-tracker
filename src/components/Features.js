@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import './Features.css';
 import Searchbar from './Searchbar';
+import Services from './Services';
 
 class Features extends Component {
 
@@ -12,7 +13,7 @@ class Features extends Component {
           <div class="row center-xs center-sm center-md center-lg">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
              <Searchbar />
-
+             <Services />
             </div>
           </div>
         </section>
