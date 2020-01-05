@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 class Nav extends Component {
@@ -13,12 +14,12 @@ class Nav extends Component {
                 <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
                   <nav role="navigation" id="navbar">
                     <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">My Requests</a></li>
-                      <li><a href="#">Knowledge Base</a></li>
-                      <li><a href="#">New Issue</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><Link to="/">Home</Link></li>
+                      <li><Link to="/about">About</Link></li>
+                      <li><Link to="/requests">My Requests</Link></li>
+                      <li><Link to="knowledge">Knowledge Base</Link></li>
+                      <li><Link to="new-issue">New Issue</Link></li>
+                      <li><Link to="contact">Contact</Link></li>
                     </ul>
                   </nav>
                 </div>
