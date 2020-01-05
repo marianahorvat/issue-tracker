@@ -9,7 +9,7 @@ class Services extends Component {
     return (
       <div className="Services">
 
-        <div class="row center-xs ">
+        <div class="row start-xs ">
 
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
             <h4>Popular Services</h4>
