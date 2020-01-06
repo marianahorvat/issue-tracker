@@ -1,0 +1,18 @@
+.Details {
+  background-color: rgba(243, 243, 243, 0.94);
+  height:60vh;
+}
+
+.Details h3 {
+  padding: 5px 15px;
+  color: #707070;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.Details select {
+  width: 90%;
+  margin: 0 15px;
+}
+
