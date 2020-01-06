@@ -28,7 +28,12 @@ class DescriptionBox extends Component {
             <button className="btn-descr" type="button" name="button"><i class="fa fa-strikethrough"></i></button>
             <button className="btn-descr" type="button" name="button"><i class="fa fa-list-ol"></i></button>
             <button className="btn-descr" type="button" name="button"><i class="fa fa-list-ul"></i></button>
+            <hr></hr>
+            <div class="col-xs-12">
+            <textarea name="Text1" className="defect-description" cols="40" rows="5"></textarea>
             </div>
+            </div>
+            
           </div>
     );
   }

@@ -9,9 +9,9 @@ class Requests extends Component {
       <div className="Requests">
         
         <div className="row start-xs">
-          <div class="col-xs-12">
+          <div class="col-xs-12 requests-title">
           <h5>REQUESTS</h5>
-            <span>All Requests</span>
+            <span className="all-requests">All Requests</span>
             <select>
               <option value="green"></option>
             </select>
@@ -31,24 +31,25 @@ class Requests extends Component {
           <div class="col-sm-1 requests-header-item">CLOSE DATE</div>
           <div class="col-sm-1 requests-header-item">ITERATION</div>
         </div>
-
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
-        <Request />
+        <div className="requests-container">
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+          <Request />
+        </div>
         
       </div>
     );

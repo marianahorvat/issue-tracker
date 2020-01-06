@@ -23,6 +23,21 @@ class Description extends Component {
             </div>
           </div>
           <DescriptionBox />
+
+          <div className="row start-xs">
+            <div class="col-xs-7">
+              <h3>ATTACHMENTS</h3>
+            </div>
+          </div>
+
+          <div className="row start-xs">
+          <input type="file" id="attachments" class="inputfile" name="attachments" multiple data-max="5" />
+                  <label for="attachments" class="file__label">
+                  
+                    <span class="file__label-text" tabindex="0" ><i class="fa fa-plus-square attachments-icon"></i>Click to add attachments</span>
+                  </label>
+          </div>
+
           <div className="row start-xs">
             <div class="col-xs-7">
               <h3>STEPS TO REPRODUCE</h3>

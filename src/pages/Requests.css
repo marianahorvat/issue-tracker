@@ -2,6 +2,16 @@
   background-color: rgba(243, 243, 243, 0.94);
 }
 
+.requests-container {
+  overflow: scroll;
+  height: 100vh;
+  margin:10px;
+}
+
+.requests-title {
+  margin:10px;
+}
+
 .requests-header {
   border: solid 1px #707070;
   background-color: #ffffff;
@@ -10,7 +20,26 @@
 }
 
 .request {
-  /* border: solid 1px #707070;
-  background-color: #ffffff; */
   font-size: 10px;
+}
+
+hr {
+  width: 100%;
+  margin: 10px;
+}
+
+.all-requests {
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #30487e;
+  margin-right: 20px;
+}
+
+.filter-text {
+  color: #30487e;
 }

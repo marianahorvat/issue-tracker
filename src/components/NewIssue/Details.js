@@ -71,6 +71,60 @@ class Details extends Component {
           </div>
         </div>
 
+        <div className="row start-xs">
+          <div class="col-xs-12">
+            <h3>SUBMITTED BY</h3>
+            <select>
+              <option value="green"></option>
+            </select>
+          </div>
+        </div>
+
+        <div className="row start-xs">
+          <div class="col-xs-12">
+            <h3>OPEN DATE</h3>
+            <select>
+              <option value="green"></option>
+            </select>
+          </div>
+        </div>
+
+        <div className="row start-xs">
+          <div class="col-xs-12">
+            <h3>CLOSED DATE</h3>
+            <select>
+              <option value="green"></option>
+            </select>
+          </div>
+        </div>
+
+        <div className="row start-xs">
+          <div class="col-xs-12">
+            <h3>RESOLUTION DATE</h3>
+            <select>
+              <option value="green"></option>
+            </select>
+          </div>
+        </div>
+
+        <div className="row start-xs">
+          <div class="col-xs-12">
+            <h3>DEFECT CATEGORY</h3>
+            <select>
+              <option value="green"></option>
+            </select>
+          </div>
+        </div>
+
+        <div className="row start-xs">
+          <div class="col-xs-12">
+            <h3>TAGS</h3>
+            <select>
+              <option value="green"></option>
+            </select>
+          </div>
+        </div>
+
       </div>
     );
   }

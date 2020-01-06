@@ -21,6 +21,7 @@ class Request extends Component {
           <div class="col-sm-1 request-item">2019-09-10</div>
           <div class="col-sm-1 request-item">N/A</div>
           <div class="col-sm-1 request-item">Jan 2020</div>
+          <hr></hr>
         </div>
 
       </div>
