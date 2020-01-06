@@ -23,8 +23,8 @@ class Title extends Component {
           </div>
         </div>
         <div className="row center-xs">
-          <div class="col-xs-7">
-              <button className="btn" type="submit" name="button"><i class="fa fa-caret-down"></i>Details</button>
+          <div class="col-sm-12 col-md-12 col-lg-7">
+              <button className="btn btn-title-details" type="submit" name="button"><i class="fa fa-caret-down"></i>Details</button>
               <button className="btn" type="submit" name="button"><i class="fa fa-history"></i>Revision History</button>
               <button className="btn" type="submit" name="button"><i class="fa fa-history"></i>Duplicates</button>
           </div>

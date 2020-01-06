@@ -19,8 +19,15 @@ class NewIssue extends Component {
                 <p>Please use this form to submit a new issue</p>
                 <form>
                   <Title />
-                  <Description />
-                  <Details />
+                  <div class="row center-xs center-sm center-md center-lg">
+                  <div class="col-xs-8">
+                    <Description />
+                  </div>
+                  <div class="col-xs-4">
+                    <Details />
+                  </div>
+                   
+                  </div>
                   <Save />
                 </form>
               </div>
